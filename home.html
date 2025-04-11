@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: poppins, sans-serif;
+            background-color:rgb(248, 200, 235);
+            text-align: center;
+            padding: 50px;
+            overflow:hidden;
+            height:100vh;
+        }
+        .circle{
+            position:absolute;
+            border-radius:30%;
+            background:rgba(255, 255, 255, 0.2);
+            animation:float 10s infinite ease-in-out alternate;
+        }
+        .circle:nth-child(1){
+            width:100px;
+            height:100px;
+            top:10%;
+            left:20%;
+        }
+        .circle:nth-child(2){
+            width:150px;
+            height:150px;
+            bottom:20%;
+            left:10%;
+            animation-duration:8s;
+        }
+        .circle:nth-child(3){
+            width:80px;
+            height:80px;
+            top:40%;
+            right:20%;
+            animation-duration:8s;
+        }
+        .circle:nth-child(4){
+            width:80px;
+            height:80px;
+            middle:40%;
+            right:20%;
+            animation-duration:8s;
+        }
+        .circle:nth-child(5){
+            width:80px;
+            height:80px;
+            bottom:40%;
+            left:20%;
+            animation-duration:8s;
+        }
+        .circle:nth-child(6){
+            width:150px;
+            height:150px;
+            bottom:20%;
+            right:10%;
+            animation-duration:8s;
+        }
+        @keyframes float{
+            0%{transform:translateY(0);opacity:0.8;}
+            100%{transform:translateY(-30px);opacity:1;}
+        }
+        h1 {
+            font-family:'pacifico',cursive;
+            font-size:36px;
+            color:rgb(250, 43, 191);
+            text-shadow:2px 2px 4pxrgba(0,0,0,0.3);
+        }
+        a {
+            display: inline-block;
+            padding: 12px 25px;
+            margin-top: 20px;
+            font-size: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            background: rgba(247, 129, 213, 0.2);
+            backdrop-filter: blur(10px);
+            color: white;
+            border-radius: 25px;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border: 2px solid rgba(237, 15, 185, 0.3);
+        }
+        a:hover {
+            background: rgba(255, 74, 213, 0.4);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <h1>Welcome to the User Management App</h1>
+    <a href="{% url 'user_list' %}">View Users</a>
+</body>
+</html>
+
