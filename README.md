@@ -12,3 +12,16 @@ Finally, the Delete operation allows users to remove records. This is commonly i
 
 # output
 
+![Image](https://github.com/user-attachments/assets/92325f58-b3cb-4c75-91cb-8c3f0ed74247)
+
+![Image](https://github.com/user-attachments/assets/568709fd-b9f1-4eac-aa10-cc58b361f1e8)
+
+![Image](https://github.com/user-attachments/assets/c0886ded-7e17-4c63-bdf2-e7e61281a5e6)
+
+![Image](https://github.com/user-attachments/assets/58ca2c80-433b-4b0c-af9b-1cc9b309bd09)
+
+![Image](https://github.com/user-attachments/assets/e4b81724-9fed-4ad4-88d4-0b3e9b4c903b)
+
+![Image](https://github.com/user-attachments/assets/d7208c92-04b8-49f2-99c1-2ee1e14083ee)
+
+![Image](https://github.com/user-attachments/assets/93b111be-7c5f-4cc7-a418-39149f19be48)
